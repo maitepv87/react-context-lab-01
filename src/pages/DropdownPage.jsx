@@ -15,7 +15,7 @@ export const DropdownPage = () => {
   };
 
   return (
-    <div>
+    <div className="flex">
       <Dropdown options={options} value={selection} onChange={handleSelect} />
     </div>
   );
